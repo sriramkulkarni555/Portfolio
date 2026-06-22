@@ -1,0 +1,26 @@
+.bg-common {
+    background-color: green !important;
+}   
+.navbar-nav li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.gap{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.profile-img{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border:5px solid green;
+}
+
+.card{
+    border-radius:20px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
